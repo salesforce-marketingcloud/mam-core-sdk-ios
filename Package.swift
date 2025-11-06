@@ -27,7 +27,7 @@ let package = Package(
                 .target(name: "MobileAppMessagingSDK"),
                 .product(name: "SFMCSDK", package: "sfmc-sdk-ios")
             ],
-            path: "MobileAppMessagingSDK"
+            path: "Frameworks/MobileAppMessagingSDK"
         )
     ]
 )
