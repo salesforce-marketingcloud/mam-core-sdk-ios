@@ -1,0 +1,3489 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MobileAppMessagingSDK",
+    "printedName": "MobileAppMessagingSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileAppMessagingConfig",
+        "printedName": "MobileAppMessagingConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trackScreens",
+            "printedName": "trackScreens",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig(py)trackScreens",
+            "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigC12trackScreensSbvp",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "trackScreens",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig(im)trackScreens",
+                "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigC12trackScreensSbvg",
+                "moduleName": "MobileAppMessagingSDK",
+                "implicit": true,
+                "objc_name": "trackScreens",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleName",
+                "printedName": "SFMCSDK.ModuleName",
+                "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig(py)name",
+            "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigC4name7SFMCSDK10ModuleNameOvp",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleName",
+                    "printedName": "SFMCSDK.ModuleName",
+                    "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig(im)name",
+                "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigC4name7SFMCSDK10ModuleNameOvg",
+                "moduleName": "MobileAppMessagingSDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig(py)appId",
+            "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigC5appIdSSvp",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "appId",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig(im)appId",
+                "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigC5appIdSSvg",
+                "moduleName": "MobileAppMessagingSDK",
+                "implicit": true,
+                "objc_name": "appId",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfig",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfig",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig(im)init",
+            "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigCACycfc",
+            "moduleName": "MobileAppMessagingSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig",
+        "mangledName": "$s21MobileAppMessagingSDK0abC6ConfigC",
+        "moduleName": "MobileAppMessagingSDK",
+        "objc_name": "SFMobileAppMessagingConfig",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ModuleConfig",
+            "printedName": "ModuleConfig",
+            "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkModuleConfig",
+            "mangledName": "$s7SFMCSDK12ModuleConfigP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileAppMessagingApi",
+        "printedName": "MobileAppMessagingApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setRegistrationCallback",
+            "printedName": "setRegistrationCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi(im)setRegistrationCallback:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC3ApiP23setRegistrationCallbackyyySDys11AnyHashableVypGcF",
+            "moduleName": "MobileAppMessagingSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "sugared_genericSig": "<Self where Self : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsetRegistrationCallback",
+            "printedName": "unsetRegistrationCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi(im)unsetRegistrationCallback",
+            "mangledName": "$s21MobileAppMessagingSDK0abC3ApiP25unsetRegistrationCallbackyyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "sugared_genericSig": "<Self where Self : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAnalyticsEnabled",
+            "printedName": "setAnalyticsEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi(im)setAnalyticsEnabled:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC3ApiP19setAnalyticsEnabledyySbF",
+            "moduleName": "MobileAppMessagingSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "sugared_genericSig": "<Self where Self : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAnalyticsEnabled",
+            "printedName": "isAnalyticsEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi(im)isAnalyticsEnabled",
+            "mangledName": "$s21MobileAppMessagingSDK0abC3ApiP18isAnalyticsEnabledSbyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "sugared_genericSig": "<Self where Self : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceIdentifier",
+            "printedName": "deviceIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi(im)deviceIdentifier",
+            "mangledName": "$s21MobileAppMessagingSDK0abC3ApiP16deviceIdentifierSSSgyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "sugared_genericSig": "<Self where Self : MobileAppMessagingSDK.MobileAppMessagingApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi",
+        "mangledName": "$s21MobileAppMessagingSDK0abC3ApiP",
+        "moduleName": "MobileAppMessagingSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "SFMobileAppMessagingApi",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileAppMessaging",
+        "printedName": "MobileAppMessaging",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleName",
+                "printedName": "SFMCSDK.ModuleName",
+                "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(py)name",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C4name7SFMCSDK10ModuleNameOvp",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleName",
+                    "printedName": "SFMCSDK.ModuleName",
+                    "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)name",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C4name7SFMCSDK10ModuleNameOvg",
+                "moduleName": "MobileAppMessagingSDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleName",
+                    "printedName": "SFMCSDK.ModuleName",
+                    "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)setName:",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C4name7SFMCSDK10ModuleNameOvs",
+                "moduleName": "MobileAppMessagingSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21MobileAppMessagingSDK0abC0C4name7SFMCSDK10ModuleNameOvM",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C4name7SFMCSDK10ModuleNameOvM",
+                "moduleName": "MobileAppMessagingSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "moduleVersion",
+            "printedName": "moduleVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cpy)moduleVersion",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C13moduleVersionSSvpZ",
+            "moduleName": "MobileAppMessagingSDK",
+            "static": true,
+            "objc_name": "moduleVersion",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)moduleVersion",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C13moduleVersionSSvgZ",
+                "moduleName": "MobileAppMessagingSDK",
+                "static": true,
+                "implicit": true,
+                "objc_name": "moduleVersion",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)setModuleVersion:",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C13moduleVersionSSvsZ",
+                "moduleName": "MobileAppMessagingSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21MobileAppMessagingSDK0abC0C13moduleVersionSSvMZ",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C13moduleVersionSSvMZ",
+                "moduleName": "MobileAppMessagingSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateProperties",
+            "printedName": "stateProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cpy)stateProperties",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C15statePropertiesSDyS2SGSgvpZ",
+            "moduleName": "MobileAppMessagingSDK",
+            "static": true,
+            "objc_name": "stateProperties",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)stateProperties",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C15statePropertiesSDyS2SGSgvgZ",
+                "moduleName": "MobileAppMessagingSDK",
+                "static": true,
+                "objc_name": "stateProperties",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)setStateProperties:",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C15statePropertiesSDyS2SGSgvsZ",
+                "moduleName": "MobileAppMessagingSDK",
+                "static": true,
+                "objc_name": "setStateProperties:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21MobileAppMessagingSDK0abC0C15statePropertiesSDyS2SGSgvMZ",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C15statePropertiesSDyS2SGSgvMZ",
+                "moduleName": "MobileAppMessagingSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleLogger",
+                "printedName": "SFMCSDK.ModuleLogger",
+                "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkModuleLogger"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cpy)logger",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C6logger7SFMCSDK12ModuleLoggerCvpZ",
+            "moduleName": "MobileAppMessagingSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleLogger",
+                    "printedName": "SFMCSDK.ModuleLogger",
+                    "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkModuleLogger"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)logger",
+                "mangledName": "$s21MobileAppMessagingSDK0abC0C6logger7SFMCSDK12ModuleLoggerCvgZ",
+                "moduleName": "MobileAppMessagingSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initModule",
+            "printedName": "initModule(config:components:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SFMCSDK.SFMCModule)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SFMCModule",
+                    "printedName": "any SFMCSDK.SFMCModule",
+                    "usr": "c:@M@SFMCSDK@objc(pl)SFMCModule"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleConfig",
+                "printedName": "any SFMCSDK.ModuleConfig",
+                "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkModuleConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFMCSdkComponents",
+                "printedName": "SFMCSDK.SFMCSdkComponents",
+                "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkComponents"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)initModuleWithConfig:components:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C10initModule6config10components7SFMCSDK10SFMCModule_pSgAG0F6Config_p_AG17SFMCSdkComponentsCtFZ",
+            "moduleName": "MobileAppMessagingSDK",
+            "static": true,
+            "objc_name": "initModuleWithConfig:components:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestSdk",
+            "printedName": "requestSdk(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any MobileAppMessagingSDK.MobileAppMessagingApi)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MobileAppMessagingSDK.MobileAppMessagingApi)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileAppMessagingApi",
+                        "printedName": "any MobileAppMessagingSDK.MobileAppMessagingApi",
+                        "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)requestSdk:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C10requestSdkyyyAA0abC3Api_pSgcFZ",
+            "moduleName": "MobileAppMessagingSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessaging",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessaging",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)init",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0CACycfc",
+            "moduleName": "MobileAppMessagingSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "receive",
+            "printedName": "receive(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Message",
+                "printedName": "SFMCSDK.Message",
+                "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)receiveWithMessage:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C7receive7messagey7SFMCSDK7MessageC_tF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "receiveWithMessage:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegistrationCallback",
+            "printedName": "setRegistrationCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)setRegistrationCallback:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C23setRegistrationCallbackyyySDys11AnyHashableVypGcF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "setRegistrationCallback:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsetRegistrationCallback",
+            "printedName": "unsetRegistrationCallback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)unsetRegistrationCallback",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C25unsetRegistrationCallbackyyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "unsetRegistrationCallback",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceIdentifier",
+            "printedName": "deviceIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)deviceIdentifier",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C16deviceIdentifierSSSgyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "deviceIdentifier",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAnalyticsEnabled",
+            "printedName": "setAnalyticsEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)setAnalyticsEnabled:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C19setAnalyticsEnabledyySbF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "setAnalyticsEnabled:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAnalyticsEnabled",
+            "printedName": "isAnalyticsEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)isAnalyticsEnabled",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C18isAnalyticsEnabledSbyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "isAnalyticsEnabled",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIdentity",
+            "printedName": "getIdentity()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SFMCSDK.ModuleIdentity)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleIdentity",
+                    "printedName": "any SFMCSDK.ModuleIdentity",
+                    "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkModuleIdentity"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)getIdentity",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C11getIdentity7SFMCSDK06ModuleF0_pSgyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "getIdentity",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "internalTearDown",
+            "printedName": "internalTearDown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(im)internalTearDown",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C16internalTearDownyyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "internalTearDown",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "SPIAccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "PrivateTearDown"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tearDownModule",
+            "printedName": "tearDownModule()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging(cm)tearDownModule",
+            "mangledName": "$s21MobileAppMessagingSDK0abC0C14tearDownModuleyyFZ",
+            "moduleName": "MobileAppMessagingSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "SPIAccessControl"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "PrivateTearDown"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessaging",
+        "mangledName": "$s21MobileAppMessagingSDK0abC0C",
+        "moduleName": "MobileAppMessagingSDK",
+        "objc_name": "SFMobileAppMessaging",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SFMCModule",
+            "printedName": "SFMCModule",
+            "usr": "c:@M@SFMCSDK@objc(pl)SFMCModule",
+            "mangledName": "$s7SFMCSDK10SFMCModuleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Publisher",
+            "printedName": "Publisher",
+            "usr": "s:7SFMCSDK9PublisherP",
+            "mangledName": "$s7SFMCSDK9PublisherP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Subscriber",
+            "printedName": "Subscriber",
+            "usr": "c:@M@SFMCSDK@objc(pl)Subscriber",
+            "mangledName": "$s7SFMCSDK10SubscriberP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MobileAppMessagingApi",
+            "printedName": "MobileAppMessagingApi",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(pl)SFMobileAppMessagingApi",
+            "mangledName": "$s21MobileAppMessagingSDK0abC3ApiP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MobileAppMessagingProtocol",
+            "printedName": "MobileAppMessagingProtocol",
+            "usr": "c:@M@SFMCSDK@objc(pl)MobileAppMessagingProtocol",
+            "mangledName": "$s7SFMCSDK26MobileAppMessagingProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileAppMessagingConfigBuilder",
+        "printedName": "MobileAppMessagingConfigBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfigBuilder",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfigBuilder",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder(im)initWithAppId:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderC5appIdACSS_tcfc",
+            "moduleName": "MobileAppMessagingSDK",
+            "objc_name": "initWithAppId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfig",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfig",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfig"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder(im)build",
+            "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderC5buildAA0abcE0CyF",
+            "moduleName": "MobileAppMessagingSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfigBuilder",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfigBuilder",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder(im)init",
+            "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderCACycfc",
+            "moduleName": "MobileAppMessagingSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setAnalyticsEnabled",
+            "printedName": "setAnalyticsEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfigBuilder",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfigBuilder",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder(im)setAnalyticsEnabled:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderC19setAnalyticsEnabledyACSbF",
+            "moduleName": "MobileAppMessagingSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTenantId",
+            "printedName": "setTenantId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfigBuilder",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfigBuilder",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder(im)setTenantId:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderC11setTenantIdyACSSF",
+            "moduleName": "MobileAppMessagingSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessToken",
+            "printedName": "setAccessToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfigBuilder",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfigBuilder",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder(im)setAccessToken:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderC14setAccessTokenyACSSF",
+            "moduleName": "MobileAppMessagingSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMAMUrl",
+            "printedName": "setMAMUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileAppMessagingConfigBuilder",
+                "printedName": "MobileAppMessagingSDK.MobileAppMessagingConfigBuilder",
+                "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder(im)setMAMUrl:",
+            "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderC9setMAMUrlyAC10Foundation3URLVF",
+            "moduleName": "MobileAppMessagingSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MobileAppMessagingSDK@objc(cs)SFMobileAppMessagingConfigBuilder",
+        "mangledName": "$s21MobileAppMessagingSDK0abC13ConfigBuilderC",
+        "moduleName": "MobileAppMessagingSDK",
+        "objc_name": "SFMobileAppMessagingConfigBuilder",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileAppMessagingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNUserNotificationCenter",
+        "printedName": "UNUserNotificationCenter",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UNUserNotificationCenter",
+        "moduleName": "UserNotifications",
+        "isOpen": true,
+        "intro_iOS": "10.0",
+        "objc_name": "UNUserNotificationCenter",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppDeviceInfoStore",
+        "printedName": "AppDeviceInfoStore",
+        "declKind": "Class",
+        "usr": "c:@M@AppGroupSDK@objc(cs)SFMCAppDeviceInfoStore",
+        "mangledName": "$s11AppGroupSDK0A15DeviceInfoStoreC",
+        "moduleName": "AppGroupSDK",
+        "objc_name": "SFMCAppDeviceInfoStore",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeatureConfigDetailStore",
+        "printedName": "FeatureConfigDetailStore",
+        "declKind": "Class",
+        "usr": "c:@M@AppGroupSDK@objc(cs)SFMCFeatureConfigDetailStore",
+        "mangledName": "$s11AppGroupSDK24FeatureConfigDetailStoreC",
+        "moduleName": "AppGroupSDK",
+        "objc_name": "SFMCFeatureConfigDetailStore",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeliveryReceiptsModelStore",
+        "printedName": "DeliveryReceiptsModelStore",
+        "declKind": "Class",
+        "usr": "c:@M@AppGroupSDK@objc(cs)SFMCDeliveryReceiptsModelStore",
+        "mangledName": "$s11AppGroupSDK26DeliveryReceiptsModelStoreC",
+        "moduleName": "AppGroupSDK",
+        "objc_name": "SFMCDeliveryReceiptsModelStore",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 45,
+      "value": "\"com.salesforce.marketingcloud.mamcoremodule\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 10,
+      "value": "\"MAMModel\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 11,
+      "value": "\"iPhone OS\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 520,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 614,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 658,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 722,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 3,
+      "value": "206"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 22,
+      "value": "\"x-sfdc-mobile-app-id\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 18,
+      "value": "\"x-sfdc-tenant-id\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 15,
+      "value": "\"X-Retry-After\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 9,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 50,
+      "value": "\"\/platform\/messaging\/mobileapp\/v1\/events\/register\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1388,
+      "length": 52,
+      "value": "\"\/platform\/messaging\/mobileapp\/v1\/events\/engagement\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/MAMConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1460,
+      "length": 49,
+      "value": "\"\/platform\/messaging\/mobileapp\/v1\/events\/billing\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Billing\/Model\/MAMBillingEventPayloadBuilder.swift",
+      "kind": "Array",
+      "offset": 375,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Repository\/MAMFirstAppOpenEventStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 25,
+      "value": "\"FirstAppOpenUserDefault\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/MobileAppMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 1196,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/MobileAppMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 42,
+      "value": "\"com.sf.mc.mobileappmessaging.statusQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/MobileAppMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 2507,
+      "length": 45,
+      "value": "\"com.sf.mc.mobileappmessaging.singletonQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/MobileAppMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 3101,
+      "length": 44,
+      "value": "\"com.sf.mc.mobileappmessaging.defferedQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/MobileAppMessaging.swift",
+      "kind": "Array",
+      "offset": 3228,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/MobileAppMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 3588,
+      "length": 49,
+      "value": "\"com.sf.mc.mobileappmessaging.DeferredCallsQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/MobileAppMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 3978,
+      "length": 50,
+      "value": "\"com.sf.mc.mobileappmessaging.contextManagerQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Config\/MobileAppMessagingConfigBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 519,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Config\/MobileAppMessagingConfigBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 580,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Registration\/Repository\/MAMRegistrationRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 66,
+      "value": "\"com.salesforce.mobileappmessaging.module.registration.repository\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Utils\/EngagementEventEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 8,
+      "value": "\"Button\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Utils\/EngagementEventEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 7,
+      "value": "\"Image\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Utils\/EngagementEventEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 4,
+      "value": "\"_m\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Utils\/EngagementEventEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 5,
+      "value": "\"_pb\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Utils\/EngagementEventEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Utils\/EngagementEventEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 19,
+      "value": "\"content-available\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Utils\/EngagementEventEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Registration\/MAMRegistrationExecutor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5028,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Model\/MAMEngagementEventPayloadBuilder.swift",
+      "kind": "Array",
+      "offset": 387,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 4,
+      "value": "\"_m\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 4,
+      "value": "\"_r\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 19,
+      "value": "\"content-available\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 5,
+      "value": "\"_od\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/ClickHandling\/Core\/MAMClickEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 4,
+      "value": "\"_x\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/Extensions\/Date+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Persistence\/MAMPersistentStoreConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 507,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Persistence\/MAMRegistrationEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Persistence\/MAMRegistrationEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Persistence\/MAMRegistrationEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Persistence\/MAMRegistrationEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Persistence\/MAMRegistrationEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/AppGroupModelCreator.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 33,
+      "value": "\"SF_MARKETINGCLOUD_APP_GROUP_KEY\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/AppGroupModelCreator.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/MAMBackoffScheduler.swift",
+      "kind": "StringLiteral",
+      "offset": 2450,
+      "length": 60,
+      "value": "\"com.salesforce.mobileappmessaging.module.backoff-scheduler\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/MAMBackoffScheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2572,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/MAMBackoffScheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2632,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/MAMBackoffScheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2637,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/MAMBackoffScheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2642,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Analytics\/Engagement\/Repository\/MAMDeliveryReceiptStore.swift",
+      "kind": "Array",
+      "offset": 816,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/MAMDebouncer.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 52,
+      "value": "\"com.salesforce.mobileappmessaging.module.debouncer\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/mam-core-module\/MobileAppMessagingSDK\/Common\/Utils\/MAMDebouncer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 503,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

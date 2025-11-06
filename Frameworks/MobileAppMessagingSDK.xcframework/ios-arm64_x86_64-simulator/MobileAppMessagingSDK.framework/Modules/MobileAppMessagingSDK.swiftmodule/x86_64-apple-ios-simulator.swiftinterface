@@ -1,0 +1,70 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MobileAppMessagingSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import CommonCrypto
+import CoreData
+import Foundation
+@_exported import MobileAppMessagingSDK
+import SFMCSDK
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @objc(SFMobileAppMessagingConfig) public class MobileAppMessagingConfig : ObjectiveC.NSObject, SFMCSDK.ModuleConfig {
+  @objc final public let trackScreens: Swift.Bool
+  @objc final public let name: SFMCSDK.ModuleName
+  @objc final public let appId: Swift.String
+  @objc deinit
+}
+@objc(SFMobileAppMessagingApi) public protocol MobileAppMessagingApi {
+  @objc func setRegistrationCallback(_ registrationCallback: @escaping (Swift.Dictionary<Swift.AnyHashable, Any>) -> Swift.Void)
+  @objc func unsetRegistrationCallback()
+  @objc func setAnalyticsEnabled(_ enabled: Swift.Bool)
+  @objc func isAnalyticsEnabled() -> Swift.Bool
+  @objc func deviceIdentifier() -> Swift.String?
+}
+@_inheritsConvenienceInitializers @objc(SFMobileAppMessaging) final public class MobileAppMessaging : ObjectiveC.NSObject, SFMCSDK.SFMCModule, SFMCSDK.Publisher {
+  @objc final public var name: SFMCSDK.ModuleName
+  @objc public static var moduleVersion: Swift.String
+  @objc public static var stateProperties: [Swift.String : Swift.String]? {
+    @objc get
+    @objc set
+  }
+  @objc public static let logger: SFMCSDK.ModuleLogger
+  @objc public static func initModule(config: any SFMCSDK.ModuleConfig, components: SFMCSDK.SFMCSdkComponents) -> (any SFMCSDK.SFMCModule)?
+  @objc public static func requestSdk(_ callback: @escaping (_ mamCore: (any MobileAppMessagingSDK.MobileAppMessagingApi)?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MobileAppMessagingSDK.MobileAppMessaging : SFMCSDK.Subscriber {
+  @objc final public func receive(message: SFMCSDK.Message)
+}
+extension MobileAppMessagingSDK.MobileAppMessaging : MobileAppMessagingSDK.MobileAppMessagingApi {
+  @objc final public func setRegistrationCallback(_ registrationCallback: @escaping (Swift.Dictionary<Swift.AnyHashable, Any>) -> Swift.Void)
+  @objc final public func unsetRegistrationCallback()
+  @objc final public func deviceIdentifier() -> Swift.String?
+  @objc final public func setAnalyticsEnabled(_ enabled: Swift.Bool)
+  @objc final public func isAnalyticsEnabled() -> Swift.Bool
+}
+extension MobileAppMessagingSDK.MobileAppMessaging : SFMCSDK.MobileAppMessagingProtocol {
+  @objc final public func getIdentity() -> (any SFMCSDK.ModuleIdentity)?
+}
+@objc(SFMobileAppMessagingConfigBuilder) public class MobileAppMessagingConfigBuilder : ObjectiveC.NSObject {
+  @objc public init(appId: Swift.String)
+  @discardableResult
+  @objc public func build() -> MobileAppMessagingSDK.MobileAppMessagingConfig
+  @objc deinit
+}
+extension MobileAppMessagingSDK.MobileAppMessagingConfigBuilder {
+  @discardableResult
+  @objc dynamic public func setAnalyticsEnabled(_ enabled: Swift.Bool) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+  @discardableResult
+  @objc dynamic public func setTenantId(_ tenantID: Swift.String) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+  @discardableResult
+  @objc dynamic public func setAccessToken(_ accessToken: Swift.String) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+  @discardableResult
+  @objc dynamic public func setMAMUrl(_ baseURL: Foundation.URL) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+}
