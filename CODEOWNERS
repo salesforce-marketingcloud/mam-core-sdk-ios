@@ -1,3 +1,4 @@
-#ECCN: 5D992.c
+#ECCN:opensource,Open Source
+
 #GUSINFO:MC Mobile SDK,MobilePush SDK - General
-* @MarketingCloudSdk/mobilepushsdkengineers
+* @salesforce-marketingcloud/MobilePushSdk
