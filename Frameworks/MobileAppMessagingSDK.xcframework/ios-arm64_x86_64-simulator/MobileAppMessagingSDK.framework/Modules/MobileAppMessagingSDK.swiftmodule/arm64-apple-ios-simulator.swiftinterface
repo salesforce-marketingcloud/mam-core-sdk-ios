@@ -1,0 +1,82 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MobileAppMessagingSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import CommonCrypto
+import CoreData
+import Foundation
+@_exported import MobileAppMessagingSDK
+import SFMCSDK
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @objc(SFMobileAppMessagingConfig) public class MobileAppMessagingConfig : ObjectiveC.NSObject, SFMCSDK.ModuleConfig {
+  @objc final public let trackScreens: Swift.Bool
+  @objc final public let name: SFMCSDK.ModuleName
+  @objc final public let appId: Swift.String
+  @objc deinit
+}
+@objc(SFMobileAppMessagingConfigBuilder) public class MobileAppMessagingConfigBuilder : ObjectiveC.NSObject {
+  @objc public init(appId: Swift.String)
+  @discardableResult
+  @objc public func build() -> MobileAppMessagingSDK.MobileAppMessagingConfig
+  @objc deinit
+}
+extension MobileAppMessagingSDK.MobileAppMessagingConfigBuilder {
+  @discardableResult
+  @objc dynamic public func setAnalyticsEnabled(_ enabled: Swift.Bool) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+  @discardableResult
+  @objc dynamic public func setTenantId(_ tenantID: Swift.String) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+  @discardableResult
+  @objc dynamic public func setAccessToken(_ accessToken: Swift.String) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+  @discardableResult
+  @objc dynamic public func setMAMUrl(_ baseURL: Foundation.URL) -> MobileAppMessagingSDK.MobileAppMessagingConfigBuilder
+}
+@objc(SFMobileAppMessagingApi) public protocol MobileAppMessagingApi {
+  @objc func setRegistrationCallback(_ registrationCallback: @escaping (Swift.Dictionary<Swift.AnyHashable, Any>) -> Swift.Void)
+  @objc func unsetRegistrationCallback()
+  @objc func setAnalyticsEnabled(_ enabled: Swift.Bool)
+  @objc func isAnalyticsEnabled() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc func deviceIdentifier() -> Swift.String?
+  #endif
+}
+@_inheritsConvenienceInitializers @objc(SFMobileAppMessaging) final public class MobileAppMessaging : ObjectiveC.NSObject, SFMCSDK.SFMCModule, SFMCSDK.Publisher {
+  @objc final public var name: SFMCSDK.ModuleName
+  @objc public static var moduleVersion: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static var stateProperties: [Swift.String : Swift.String]? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc public static let logger: SFMCSDK.ModuleLogger
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func initModule(config: any SFMCSDK.ModuleConfig, components: SFMCSDK.SFMCSdkComponents) -> (any SFMCSDK.SFMCModule)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func requestSdk(_ callback: @escaping (_ mamCore: (any MobileAppMessagingSDK.MobileAppMessagingApi)?) -> Swift.Void)
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MobileAppMessagingSDK.MobileAppMessaging : SFMCSDK.Subscriber {
+  @objc final public func receive(message: SFMCSDK.Message)
+}
+extension MobileAppMessagingSDK.MobileAppMessaging : MobileAppMessagingSDK.MobileAppMessagingApi {
+  @objc final public func setRegistrationCallback(_ registrationCallback: @escaping (Swift.Dictionary<Swift.AnyHashable, Any>) -> Swift.Void)
+  @objc final public func unsetRegistrationCallback()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func deviceIdentifier() -> Swift.String?
+  #endif
+  @objc final public func setAnalyticsEnabled(_ enabled: Swift.Bool)
+  @objc final public func isAnalyticsEnabled() -> Swift.Bool
+}
+extension MobileAppMessagingSDK.MobileAppMessaging : SFMCSDK.MobileAppMessagingProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func getIdentity() -> (any SFMCSDK.ModuleIdentity)?
+  #endif
+}
